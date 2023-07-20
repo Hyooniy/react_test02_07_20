@@ -1,0 +1,51 @@
+body{
+    background-color: #dbd9d9;
+  }
+  #wrap{
+    position: relative;
+  }
+  div.btn{
+    margin: 20px auto;
+    padding: 30px 0;
+    text-align:center;
+  }
+  div.btn>button{
+    padding: 15px 40px;
+    border: none;
+    color: #fff;
+    margin: 0 30px;
+    background-color: #5a5a5a;
+    border: none;
+  }
+  div.btn>button:last-child{
+    background-color:#b1b1b1;
+  }
+  div.option{
+    width: 400px;
+    padding: 15px;
+  }
+  div.option>p{
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  div.option>p>label{
+    width: 130px;
+    display: inline-block;
+  }
+  div.option>p>select{ 
+    width: 200px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    border: none;
+  }
+  div.option>p>select:first-child{ 
+    display: flex;
+    position: absolute;
+    top: 50px; right: 100px;
+  }
+  div.option>p>select:last-child{ 
+    display: flex;
+    position: absolute;
+    top: 50px; right: 500px;
+  }

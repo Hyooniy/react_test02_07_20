@@ -1,0 +1,33 @@
+figure{
+  width: 905px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  display: flex;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+figure>img{
+  width: 300px;
+  margin-right: 100px;
+}
+figure>figcaption{
+  width: 500px;
+}
+figure dt{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+figure dd{
+  padding-bottom: 10px;
+  font-size: 20px;
+
+}
+figure dd>button{
+  margin-top: 50px;
+  width: 495px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  margin-right: 20px;
+}
